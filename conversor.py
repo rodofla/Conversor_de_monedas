@@ -24,13 +24,13 @@ def exchanges (moneda, cantidad):
         
 if __name__ == "__main__":
     try:
-        moneda = int(input('''
+        moneda = int(input("""
         Ingresa el indice de la moneda que quieres convertir a dolar:
             [1] Moneda Chilena a Dolar
             [2] Moneda colombiana a Dolar
             [3] Moneda Argentina a Dolar
             [4] Moneda Mexicana a Dolar
-        Selecciona: '''))
+        Selecciona: """))
         print("*********************************************")
         cantidad = int (input("Ingresa la cantidad que quieres convertir: "))
         exchanges(moneda,cantidad)
